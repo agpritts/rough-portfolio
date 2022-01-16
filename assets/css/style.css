@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #ffa801;
+    --secondary-color: #485460;
+    --tertiary-color: #ffd32a;
+}
+
+body {
+    color: #d2dae2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 25px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2vw;
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/122395-bright-orange-watercolour-grunge-texture-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sections {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.sections h3 {
+    color: var(--secondary-color);
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.me-picture {
+    display: inline;
+    vertical-align: top;
+    flex: 1 12%;
+}
+
+.me-picture img {
+    max-width: 45%;
+}
+
+.section-text {
+    display: inline;
+    margin-top: 20px;
+    flex: 12;
+}
+
+.section-text p {
+    color: var(--secondary-color);
+    font-size: 18px;
+}
