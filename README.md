@@ -13,6 +13,7 @@ Responsive viewport functionality added </br>
 </br>
 
 ## GitHub Pages Link
+https://agpritts.github.io/challenge2-professional-portfolio/
 
 ## Contribution
 Adam P.
